@@ -75,3 +75,21 @@ body{
     width: 25%;
     margin: 1%;
 }
+
+/* Page 3 Css */
+
+.hover-text5,.hover-text6,.hover-text7,.hover-text8,.hover-text9,.hover-text10,.hover-text10b,.hover-text10c
+{
+    display: none;
+}
+
+ol {
+counter-reset: list;
+}
+ol > li {
+list-style: none;
+}
+ol > li:before {
+content: "("counter( list,lower-roman) ") ";
+counter-increment: list;
+}
