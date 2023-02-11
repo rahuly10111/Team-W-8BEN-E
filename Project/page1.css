@@ -1,9 +1,15 @@
 body{
     font-family:sans-serif; 
 }
-form{
+
+.parthead {
+    font-weight: bolder;
+    font-size: 19px;
+  }
+
+/* form{
     margin: 15%;
-}
+} */
 #mainheader_pg1,#subheader_pg1{
     text-align: center;
     font: 17.5px;
