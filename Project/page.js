@@ -353,6 +353,164 @@ partdiv25.click(function () {
 partdiv25.mouseleave(function () {
     partdiv25.css("background-color", "white");
 });
+//  checkbox for 29
+const checkbox15d = $("#checkbox15d");
+const checkbocdiv15d = $(".checkbocdiv15d");
+const hoverText15d = $(".hover-text15d");
+
+checkbox15d.mouseenter(function () {
+    hoverText15d.show();
+});
+
+checkbocdiv15d.mouseleave(function () {
+    hoverText15d.hide();
+});
+
+const checkbox15e = $("#checkbox15e");
+const checkbocdiv15e = $(".checkbocdiv15e");
+const hoverText15e = $(".hover-text15e");
+
+checkbox15e.mouseenter(function () {
+    hoverText15e.show();
+});
+
+checkbocdiv15e.mouseleave(function () {
+    hoverText15e.hide();
+});
+const checkbox15f = $("#checkbox15f");
+const checkbocdiv15f = $(".checkbocdiv15f");
+const hoverText15f = $(".hover-text15f");
+
+checkbox15f.mouseenter(function () {
+    hoverText15f.show();
+});
+
+checkbocdiv15f.mouseleave(function () {
+    hoverText15f.hide();
+});
+
+
+
+const partdiv15 = $("#partdiv15");
+
+partdiv15.click(function () {
+    partdiv15.css("background-color", "lightyellow");
+});
+
+partdiv15.mouseleave(function () {
+    partdiv15.css("background-color", "white");
+});
+
+
+// checkbox for 30
+const checkbox30 = $("#checkbox30");
+const checkbocdiv30 = $(".checkbocdiv30");
+const hoverText30 = $(".hover-text30");
+
+checkbox30.mouseenter(function () {
+    hoverText30.show();
+});
+
+checkbocdiv30.mouseleave(function () {
+    hoverText30.hide();
+});
+const partdiv16 = $("#partdiv16");
+
+partdiv16.click(function () {
+    partdiv16.css("background-color", "lightyellow");
+});
+
+partdiv16.mouseleave(function () {
+    partdiv16.css("background-color", "white");
+});
+
+// checkbox for 31
+const checkbox31 = $("#checkbox31");
+const checkbocdiv31 = $(".checkbocdiv31");
+const hoverText31 = $(".hover-text31");
+
+checkbox31.mouseenter(function () {
+    hoverText31.show();
+});
+
+checkbocdiv31.mouseleave(function () {
+    hoverText31.hide();
+});
+const partdiv17 = $("#partdiv17");
+
+partdiv17.click(function () {
+    partdiv17.css("background-color", "lightyellow");
+});
+
+partdiv17.mouseleave(function () {
+    partdiv17.css("background-color", "white");
+});
+
+// checkbox for 32
+const checkbox32 = $("#checkbox32");
+const checkbocdiv32 = $(".checkbocdiv32");
+const hoverText32 = $(".hover-text32");
+
+checkbox32.mouseenter(function () {
+    hoverText32.show();
+});
+
+checkbocdiv32.mouseleave(function () {
+    hoverText32.hide();
+});
+const partdiv18 = $("#partdiv18");
+
+partdiv18.click(function () {
+    partdiv18.css("background-color", "lightyellow");
+});
+
+partdiv18.mouseleave(function () {
+    partdiv18.css("background-color", "white");
+});
+
+// checkbox for 33
+const checkbox33 = $("#checkbox33");
+const checkbocdiv33 = $(".checkbocdiv33");
+const hoverText33 = $(".hover-text33");
+
+checkbox33.mouseenter(function () {
+    hoverText33.show();
+});
+
+checkbocdiv33.mouseleave(function () {
+    hoverText33.hide();
+});
+const partdiv19 = $("#partdiv19");
+
+partdiv19.click(function () {
+    partdiv19.css("background-color", "lightyellow");
+});
+
+partdiv19.mouseleave(function () {
+    partdiv19.css("background-color", "white");
+});
+
+// checkbox for 34
+const checkbox34 = $("#checkbox34");
+const checkbocdiv34 = $(".checkbocdiv34");
+const hoverText34 = $(".hover-text34");
+
+checkbox34.mouseenter(function () {
+    hoverText34.show();
+});
+
+checkbocdiv34.mouseleave(function () {
+    hoverText34.hide();
+});
+const partdiv20 = $("#partdiv20");
+
+partdiv20.click(function () {
+    partdiv20.css("background-color", "lightyellow");
+});
+
+partdiv20.mouseleave(function () {
+    partdiv20.css("background-color", "white");
+});
 
 
   });
