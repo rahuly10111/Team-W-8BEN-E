@@ -239,5 +239,120 @@ $(document).ready(function () {
             
 // --------------------------Page 3 Over-------------------------------------------
 
+// page 4 and 5 
+//  checkbox for 25a
+const checkbox35 = $("#checkbox25a");
+const checkbocdiv25a = $(".checkbocdiv25a");
+const hoverText25a = $(".hover-text25a");
+
+checkbox35.mouseenter(function () {
+    hoverText25a.show();
+});
+
+checkbocdiv25a.mouseleave(function () {
+    hoverText25a.hide();
+});
+
+//checkbox for 25b
+const checkbox25b = $("#checkbox25b");
+const checkbocdiv25b = $(".checkbocdiv25b");
+const hoverText25b = $(".hover-text25b");
+
+checkbox25b.mouseenter(function () {
+    hoverText25b.show();
+});
+
+checkbocdiv25b.mouseleave(function () {
+    hoverText25b.hide();
+});
+
+// checkbox for 25c
+const checkbox25c = $("#checkbox25c");
+const checkbocdiv25c = $(".checkbocdiv25c");
+const hoverText25c = $(".hover-text25c");
+
+checkbox25c.mouseenter(function () {
+    hoverText25c.show();
+});
+
+checkbocdiv25c.mouseleave(function () {
+    hoverText27.hide();
+});
+
+//checkbox 27
+const checkbox27 = $("#checkbox27");
+const checkbocdiv27 = $(".checkbocdiv27");
+const hoverText27 = $(".hover-text27");
+
+checkbox27.mouseenter(function () {
+    hoverText27.show();
+});
+
+checkbocdiv27.mouseleave(function () {
+    hoverText27.hide();
+});
+
+//checkbox 28
+const checkbox28 = $("#checkbox28");
+const checkbocdiv28 = $(".checkbocdiv28");
+const hoverText28 = $(".hover-text28");
+
+checkbox28.mouseenter(function () {
+    hoverText28.show();
+});
+
+checkbocdiv28.mouseleave(function () {
+    hoverText28.hide();
+});
+
+//checkbox 29a
+const checkbox29a = $("#checkbox29a");
+const checkbocdiv29a = $(".checkbocdiv29a");
+const hoverText29a = $(".hover-text29a");
+
+checkbox29a.mouseenter(function () {
+    hoverText29a.show();
+});
+
+checkbocdiv29a.mouseleave(function () {
+    hoverText29a.hide();
+});
+
+//checkbox 29b
+const checkbox29b = $("#checkbox29b");
+const checkbocdiv29b = $(".checkbocdiv29b");
+const hoverText29b = $(".hover-text29b");
+
+checkbox29b.mouseenter(function () {
+    hoverText29b.show();
+});
+
+checkbocdiv29b.mouseleave(function () {
+    hoverText29b.hide();
+});
+
+//checkbox 29c
+const checkbox29c = $("#checkbox29c");
+const checkbocdiv29c = $(".checkbocdiv29c");
+const hoverText29c = $(".hover-text29c");
+
+checkbox29c.mouseenter(function () {
+    hoverText29c.show();
+});
+
+checkbocdiv29c.mouseleave(function () {
+    hoverText29c.hide();
+});
+
+const partdiv25 = $("#partdiv25");
+
+partdiv25.click(function () {
+    partdiv25.css("background-color", "lightyellow");
+});
+
+partdiv25.mouseleave(function () {
+    partdiv25.css("background-color", "white");
+});
+
 
   });
