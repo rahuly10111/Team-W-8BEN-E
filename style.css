@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+.parthead {
+    font-weight: bolder;
+    font-size: 19px;
+}
+label.error{
+    color: red;
+}
+
+
+.hover-text5,
+.hover-text6,
+.hover-text7,
+.hover-text8,
+.hover-text9,
+.hover-text10,
+.hover-text10b,
+.hover-text10c,
+.hover-text25a,
+.hover-text25b,
+.hover-text25c,
+.hover-text28,
+.hover-text29a,
+.hover-text29b,
+.hover-text29c,
+.hover-text15d,
+.hover-text15e,
+.hover-text15f
+ {
+    display: none;
+}
+
+
+.signature-pad {
+   
+    width: 400px;
+    height: 200px;
+  border: 2px solid black;}
+
+
+  #submit{
+    width: 25%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+    
