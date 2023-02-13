@@ -240,12 +240,15 @@ $(document).ready(function () {
     // --------------------------Page 3 Over-------------------------------------------
 
     // page 4 and 5 
+
     //  checkbox for 25a
-    const checkbox25 = $("#checkbox25a");
-    const checkbocdiv25a = $(".checkbocdiv25a");
+    const checkbocdiv25a = $("#checkbocdiv25a");
+
+    const checkboxdiv25a = $("#checkboxdiv25a");
+
     const hoverText25a = $(".hover-text25a");
 
-    checkbox25.mouseenter(function () {
+    checkboxdiv25a.mouseenter(function () {
         hoverText25a.show();
     });
 
@@ -255,7 +258,7 @@ $(document).ready(function () {
 
     //checkbox for 25b
     const checkbox25b = $("#checkbox25b");
-    const checkbocdiv25b = $(".checkbocdiv25b");
+    const checkbocdiv25b = $("#checkbocdiv25b");
     const hoverText25b = $(".hover-text25b");
 
     checkbox25b.mouseenter(function () {
@@ -268,7 +271,7 @@ $(document).ready(function () {
 
     // checkbox for 25c
     const checkbox25c = $("#checkbox25c");
-    const checkbocdiv25c = $(".checkbocdiv25c");
+    const checkbocdiv25c = $("#checkbocdiv25c");
     const hoverText25c = $(".hover-text25c");
 
     checkbox25c.mouseenter(function () {
@@ -276,7 +279,7 @@ $(document).ready(function () {
     });
 
     checkbocdiv25c.mouseleave(function () {
-        hoverText27.hide();
+        hoverText25c.hide();
     });
 
     //checkbox 27
@@ -294,7 +297,7 @@ $(document).ready(function () {
 
     //checkbox 28
     const checkbox28 = $("#checkbox28");
-    const checkbocdiv28 = $(".checkbocdiv28");
+    const checkbocdiv28 = $("#checkbocdiv28");
     const hoverText28 = $(".hover-text28");
 
     checkbox28.mouseenter(function () {
@@ -307,7 +310,7 @@ $(document).ready(function () {
 
     //checkbox 29a
     const checkbox29a = $("#checkbox29a");
-    const checkbocdiv29a = $(".checkbocdiv29a");
+    const checkbocdiv29a = $("#checkbocdiv29a");
     const hoverText29a = $(".hover-text29a");
 
     checkbox29a.mouseenter(function () {
@@ -320,7 +323,7 @@ $(document).ready(function () {
 
     //checkbox 29b
     const checkbox29b = $("#checkbox29b");
-    const checkbocdiv29b = $(".checkbocdiv29b");
+    const checkbocdiv29b = $("#checkbocdiv29b");
     const hoverText29b = $(".hover-text29b");
 
     checkbox29b.mouseenter(function () {
@@ -333,7 +336,7 @@ $(document).ready(function () {
 
     //checkbox 29c
     const checkbox29c = $("#checkbox29c");
-    const checkbocdiv29c = $(".checkbocdiv29c");
+    const checkbocdiv29c = $("#checkbocdiv29c");
     const hoverText29c = $(".hover-text29c");
 
     checkbox29c.mouseenter(function () {
@@ -353,9 +356,10 @@ $(document).ready(function () {
     partdiv15a.mouseleave(function () {
         partdiv15a.css("background-color", "white");
     });
+
     //  checkbox for 29
     const checkbox15d = $("#checkbox15d");
-    const checkbocdiv15d = $(".checkbocdiv15d");
+    const checkbocdiv15d = $("#checkbocdiv15d");
     const hoverText15d = $(".hover-text15d");
 
     checkbox15d.mouseenter(function () {
@@ -745,5 +749,5 @@ $(document).ready(function () {
 
 });
 
-//Signature : Krinal Patel
+
 
