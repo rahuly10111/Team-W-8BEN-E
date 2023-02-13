@@ -245,7 +245,7 @@ $(document).ready(function () {
     const checkbocdiv25a = $(".checkbocdiv25a");
     const hoverText25a = $(".hover-text25a");
 
-    checkbox35.mouseenter(function () {
+    checkbox25.mouseenter(function () {
         hoverText25a.show();
     });
 
