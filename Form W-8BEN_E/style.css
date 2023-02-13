@@ -6,7 +6,9 @@ body {
     font-weight: bolder;
     font-size: 19px;
 }
-
+label.error{
+    color: red;
+}
 
 
 .hover-text5,
