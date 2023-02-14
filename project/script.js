@@ -818,21 +818,10 @@ $('#W-8BEN').validate({
         required: true,
         validname: true
     },
-    giinOne:{
-        required: true,
-    },
-    article:{
-        required: true
-    },
-    paragraph:{
-        required: true
-    },
     rate:{
-        required: true,
         validnumber : true
     },
     income:{
-        required: true,
         validnumber : true
     },
     sponsoringName:{
@@ -843,9 +832,9 @@ $('#W-8BEN').validate({
         required: true,
         validname: true
     },
-    IGA:{
-        required: true
-    },
+    // IGA:{
+    //     required: true
+    // },
     date:{
         required: true
     },
