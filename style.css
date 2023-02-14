@@ -47,3 +47,9 @@ label.error{
     margin-top: 5%;
 }
     
+#nameinp,#pt33,#pt35,#pt37b,#pt37a {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+  }
