@@ -832,9 +832,7 @@ $('#W-8BEN').validate({
         required: true,
         validname: true
     },
-    // IGA:{
-    //     required: true
-    // },
+    
     date:{
         required: true
     },
