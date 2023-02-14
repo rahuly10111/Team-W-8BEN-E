@@ -740,238 +740,225 @@ $('#submit').click(function(){
 })
 $('#W-8BEN').validate({
     rules:{
-        name_org:{
-            required: true,
-            validname: true
-        },
-        country_org:{
-            required: true,
-            validname: true
-        },
-        name:{
-            required: true,
-            validname: true
-        },
-        streetAddress:{
-            required: true
-        },
-        streetLine:{
-            required: true
-        },
-        streetCity:{
-            required: true,
-            validname: true
-        },
-        streetState:{
-            required: true,
-            validname: true
-        },
-        streetZip:{
-            required: true,
-            validzip : true
-        },
-        streetCountry:{
-            required: true,
-            validname: true
-        },
-        streetAddressOne:{
-            required: true
-        },
-        streetLineOne:{
-            required: true
-        },
-        streetCityOne:{
-            required: true,
-            validname: true
-        },
-        streetStateOne:{
-            required: true,
-            validname: true
-        },
-        streetZipOne:{
-            required: true,
-            validzip : true
-        },
-        streetCountryOne:{
-            required: true,
-            validname: true
-        },
-        identificationNo:{
-            required: true,
-            validnumber: true
-        },
-        giin:{
-            required: true,
-            validnumber: true 
-        },
-        tin:{
-            required: true,
-            validnumber: true 
-        },
-        reference:{
-            required: true,
-            validnumber: true
-        },
-        branchAddress:{
-            required: true
-        },
-        CityTown:{
-            required: true,
-            validname: true
-        },
-        country:{
-            required: true,
-            validname: true
-        },
-        giinOne:{
-            required: true,
-            validnumber: true 
-        },
-        article:{
-            required: true
-        },
-        paragraph:{
-            required: true
-        },
-        rate:{
-            required: true,
-            validnumber : true
-        },
-        income:{
-            required: true,
-            validnumber : true
-        },
-        sponsoringName:{
-            required: true,
-            validname: true
-        },
-        fname:{
-            required: true,
-            validname: true
-        },
-        IGA:{
-            required: true
-        },
-        date:{
-            required: true
-        },
-        reorganization:{
-            required: true
-        },
-        Entity:{
-            required: true,
-            validname: true 
-        },
+    name_org:{
+        required: true,
+        validname: true
     },
-    messages:{
-        name_org:{
-            required: "Enter Your Name",
-            validname: "Enter Only Character"
-        },
-        country_org:{
-            required: "Enter Your Country Name",
-            validname: "Enter Only Character"
-        },
-        name:{
-            required: "Enter Your Name",
-            validname: "Enter Only Character"
-        },
-        streetAddress : "Enter Required Fields",
-        streetLine : "Enter Required Fields",
-        streetCity:{
-            required: "Enter Your City",
-            validname: "Enter Only Character"
-        },
-        streetState:{
-            required: "Enter Your State",
-            validname: "Enter Only Character"
-        },
-        streetZip:{
-            required: "Enter Your ZipCode",
-            validzip: "Enter Only Digit"
-        },
-        streetCountry:{
-            required: "Enter Your Country",
-            validname: "Enter Only Character"
-        },
-        streetAddressOne : "Enter Required Fields",
-        streetLineOne : "Enter Required Fields",
-        streetCityOne:{
-            required: "Enter Your City",
-            validname: "Enter Only Character"
-        },
-        streetStateOne:{
-            required: "Enter Your State",
-            validname: "Enter Only Character"
-        },
-        streetZipOne:{
-            required: "Enter Your ZipCode",
-            validzip: "Enter Only Digit"
-        },
-        streetCountryOne:{
-            required: "Enter Your Country",
-            validname: "Enter Only Character"
-        },
-        identificationNo:{
-            required: "Enter Identification Number",
-            validnumber: "Enter Only Digit"
-        },
-        giin:{
-            required: "Enter GIIN Number",
-            validnumber: "Enter Only Digit"
-        },
-        tin:{
-            required: "Enter TIN Number",
-            validnumber: "Enter Only Digit"
-        },
-        reference:{
-            required: "Enter Reference Number",
-            validnumber: "Enter Only Digit"
-        },
-        branchAddress : "Enter Required Fields",
-        CityTown:{
-            required: "Enter Your City Or Town",
-            validname: "Enter Only Character"
-        },
-        country:{
-            required: "Enter Your Country",
-            validname: "Enter Only Character"
-        },
-        giinOne:{
-            required: "Enter GIIN Number",
-            validnumber: "Enter Only Digit"
-        },
-        article: "Enter Required Fields",
-        paragraph: "Enter Required Fields",
-        rate:{
-            required: "Enter Rate",
-            validnumber: "Enter Only Digit"
-        },
-        income:{
-            required: "Enter Required Field",
-            validnumber: "Enter Only Digit"
-        },
-        sponsoringName:{
-            required: "Enter Name of sponsoring",
-            validname: "Enter Only Character"
-        },
-        fname:{
-            required: "Enter Name of sponsoring",
-            validname: "Enter Only Character"
-        },
-        IGA: "Enter Required Field",
-        date: "Enter Date",
-        reorganization:{
-             required: "Enter Required Fields"
-        },
-        Entity:{
-            required: "Enter Name of sponsoring",
-            validname: "Enter Only Character"
-        },
+    country_org:{
+        required: true,
+        validname: true
     },
+    name:{
+        required: true,
+        validname: true
+    },
+    streetAddress:{
+        required: true
+    },
+    streetLine:{
+        required: true
+    },
+    streetCity:{
+        required: true,
+        validname: true
+    },
+    streetState:{
+        required: true,
+        validname: true
+    },
+    streetZip:{
+        required: true,
+        validzip : true
+    },
+    streetCountry:{
+        required: true,
+        validname: true
+    },
+    streetAddressOne:{
+        required: true
+    },
+    streetLineOne:{
+        required: true
+    },
+    streetCityOne:{
+        required: true,
+        validname: true
+    },
+    streetStateOne:{
+        required: true,
+        validname: true
+    },
+    streetZipOne:{
+        required: true,
+        validzip : true
+    },
+    streetCountryOne:{
+        required: true,
+        validname: true
+    },
+    
+    giin:{
+        required: true,
+    },
+    tin:{
+        required: true,
+    },
+    reference:{
+        required: true,
+        digits: true
+    },
+    branchAddress:{
+        required: true
+    },
+    CityTown:{
+        required: true,
+        validname: true
+    },
+    country:{
+        required: true,
+        validname: true
+    },
+    giinOne:{
+        required: true,
+    },
+    article:{
+        required: true
+    },
+    paragraph:{
+        required: true
+    },
+    rate:{
+        required: true,
+        validnumber : true
+    },
+    income:{
+        required: true,
+        validnumber : true
+    },
+    sponsoringName:{
+        required: true,
+        validname: true
+    },
+    fname:{
+        required: true,
+        validname: true
+    },
+    IGA:{
+        required: true
+    },
+    date:{
+        required: true
+    },
+    reorganization:{
+        required: true
+    },
+    Entity:{
+        required: true,
+        validname: true 
+    },
+},
+messages:{
+    name_org:{
+        required: "Enter Your Name",
+        validname: "Name Must be in Character"
+    },
+    country_org:{
+        required: "Enter Your Country Name",
+        validname: "Country Should be in Character"
+    },
+    name:{
+        required: "Name of disregarded entity receiving the payment",
+        validname: "Name Must be in Character"
+    },
+    streetAddress: {
+        required: "Enter Required Fields"
+    },
+    streetLine : "Enter Required Fields",
+    streetCity:{
+        required: "Enter Your City",
+        validname: "City Should be in Character"
+    },
+    streetState:{
+        required: "Enter Your State",
+        validname: "State Should be in Character"
+    },
+    streetZip:{
+        required: "Enter Your ZipCode",
+        validzip: "Zip Code Is Must be 6 Digits"
+    },
+    streetCountry:{
+        required: "Enter Your Country",
+        validname: "Country Should be in Character"
+    },
+    streetAddressOne : "Enter Required Fields",
+    streetLineOne : "Enter Required Fields",
+    streetCityOne:{
+        required: "Enter Your City",
+        validname: "City Should be in Character"
+    },
+    streetStateOne:{
+        required: "Enter Your State",
+        validname: "State Should be in Character"
+    },
+    streetZipOne:{
+        required: "Enter Your ZipCode",
+        validzip: "Zip Code Is Must be 6 Digits"
+    },
+    streetCountryOne:{
+        required: "Enter Your Country",
+        validname: "Country Should be in Character"
+    },
+    giin:{
+        required: "Enter GIIN Number",
+    },
+    tin:{
+        required: "Enter TIN Number",
+    },
+    reference:{
+        required: "Enter Reference Number",
+        digits: "Only Digits Allow"
+    },
+    branchAddress : "Enter Required Fields",
+    CityTown:{
+        required: "Enter Your City Or Town",
+        validname: "City Should be in Character"
+    },
+    country:{
+        required: "Enter Your Country",
+        validname: "Country Should be in Character"
+    },
+    giinOne:{
+        required: "Enter GIIN Number",
+    },
+    article: "Enter Required Fields",
+    paragraph: "Enter Required Fields",
+    rate:{
+        required: "Enter Rate",
+        validnumber: "Enter Only Digit"
+    },
+    income:{
+        required: "Enter Required Field",
+        validnumber: "Enter Only Digit"
+    },
+    sponsoringName:{
+        required: "Enter Name of sponsoring",
+        validname: "Name Must be in Character"
+    },
+    fname:{
+        required: "Enter Name of sponsoring",
+        validname: "Name Must be in Character"
+    },
+    IGA: "Enter Required Field",
+    date: "Enter Date",
+    reorganization:{
+         required: "Enter Required Fields"
+    },
+    Entity:{
+        required: "Enter Name of sponsoring",
+        validname: "Name Must be in Character"
+    },
+},
 });
-});
-// });
 
 
 
@@ -995,4 +982,4 @@ const signaturePad = new SignaturePad(canvas);
 document.getElementById('clear').addEventListener('click', function () {
     signaturePad.clear();
 });
-
+});
